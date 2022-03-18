@@ -1,0 +1,56 @@
+.sobre-interno {
+  background: url("../imagens/bg-sobre.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.subtitulo-sobre {
+  font-family: 'Grandstander', Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 25px;
+  text-align: left;
+  padding-top: 70px;
+}
+
+.subtitulo-sobre:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: black;
+  margin: 10px 0 20px 0;
+}
+
+.lista-sobre p {
+  font-family: 'Grandstander', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: left;
+  padding-right: 40px;
+}
+
+.lista-sobre p:last-child {
+  padding-top: 20px;
+}
+
+.subtitulo-valores {
+  font-family: 'Grandstander', Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 25px;
+  text-align: left;
+}
+
+.lista-valores {
+  font-family: 'Grandstander', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: left;
+}
+
+.foto-equipe{
+  padding-top: 40px;
+}
+.quebra {
+  margin-top: 60px;
+}
